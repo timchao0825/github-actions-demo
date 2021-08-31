@@ -1,4 +1,4 @@
-# project
+# Github Actions Demo
 
 ## Project setup
 ```
