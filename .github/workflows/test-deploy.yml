@@ -1,0 +1,14 @@
+name: Test Deploy
+
+node_js:
+  - "node"
+  
+script: npm run build
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
